@@ -1,0 +1,11 @@
+name: validador-placa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - opencv-python
+      - pytesseract
+      - numpy
+      - pillow
